@@ -1,6 +1,6 @@
 /*==================== ABOUT ====================*/
 
-  .about__container {
+.about__container {
     grid-template-columns: repeat(2, 1fr);
   }
   
