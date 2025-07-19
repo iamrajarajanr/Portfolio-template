@@ -1,10 +1,24 @@
-/*==================== ABOUT ====================*/
+/*==================== REUSABLE CLASSES ====================*/
+.section {
+  padding: 2rem 0 4rem;
+}
 
-.about__container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
+.section__title {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  text-align: center;
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*==================== ABOUT ====================*/
 .about__img {
+   margin-bottom: 20px;
   width: 200px;
   border-radius: .5rem;
   justify-self: center;
@@ -13,13 +27,13 @@
 
 .about__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 20px;
 }
 
 .about__info {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: 20px;
 }
 
 .about__info-title {
@@ -32,7 +46,8 @@
   font-size: var(--smaller-font-size);
 }
 
-.about__info-title, .about__info-name {
+.about__info-title, 
+.about__info-name {
   display: block;
   text-align: center;
 }
@@ -42,19 +57,49 @@
   justify-content: center;
 }
 
+/*==================== BUTTON ====================*/
+.button {
+  display: inline-block;
+  background-color: rgb(7, 7, 7);
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+}
+
+/* .button:hover {
+  background-color: darkblue;
+} */
+
+.button__icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: .3s;
+}
+
+.button--flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* For medium devices */
 @media screen and (min-width: 768px) {
-    .about__container {
+  .about__container {
     column-gap: 5rem;
   }
+  
   .about__img {
     width: 350px;
   }
+  
   .about__description {
     text-align: initial;
   }
+  
   .about__info {
     justify-content: space-between;
   }
+  
   .about__buttons {
     justify-content: initial;
   }
