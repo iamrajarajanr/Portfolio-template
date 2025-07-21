@@ -833,7 +833,7 @@ body.dark-theme {
 }
 
 /*=============== CONTACT ===============*/
-.contact {
+/* .contact {
   padding-bottom: 0;
 }
 
@@ -852,7 +852,7 @@ body.dark-theme {
   margin-left: auto;
   border-bottom: 4px solid var(--first-color);
   z-index: 5;
-  transition: background-color .4s; /* for dark mode */
+  transition: background-color .4s;
 }
 
 .contact__data .section__title-2 {
@@ -881,7 +881,7 @@ body.dark-theme {
   background-color: var(--black-color);
   padding: 5rem 1.5rem 2.5rem;
   margin-top: -2.5rem;
-  transition: background-color .4s; /* for dark mode */
+  transition: background-color .4s;
 }
 
 .contact__title {
@@ -967,12 +967,12 @@ body.dark-theme {
   cursor: pointer;
 }
 
-/* Opaque placeholder */
+
 .contact__input:focus::placeholder {
   opacity: 0;
 }
 
-/* Move label up & sticky label */
+
 .contact__input:focus + .contact__label, 
 .contact__input:not(:placeholder-shown).contact__input:not(:focus) + .contact__label {
   opacity: 1;
@@ -1036,7 +1036,8 @@ body.dark-theme {
   position: absolute;
   bottom: -1.6rem;
   left: 0;
-}
+} */
+
 
 /*=============== FOOTER ===============*/
 .footer {
@@ -1130,12 +1131,12 @@ body.dark-theme {
     right: -2.5rem;
   }
 
-  .contact__data {
+  /* .contact__data {
     width: 100%;
   }
   .contact__data .section__title-2 {
     transform: translateX(0);
-  }
+  } */
 
   
 }
@@ -1149,7 +1150,7 @@ body.dark-theme {
     justify-content: center;
   }
 
-  .contact__data {
+  /* .contact__data {
     width: 350px;
     padding: 4rem 1.5rem;
     margin-inline: auto;
@@ -1173,7 +1174,7 @@ body.dark-theme {
   }
   .contact__social-description-2 {
     color: var(--title-color);
-  }
+  } */
   .dark-theme .contact__social-arrow {
     filter: none;
   }
@@ -1458,7 +1459,7 @@ body.dark-theme {
     right: 1.25rem;
   }
 
-  .contact__container {
+  /* .contact__container {
     grid-template-columns: 440px 670px;
     grid-template-rows: initial;
     padding-bottom: 2rem;
@@ -1512,7 +1513,7 @@ body.dark-theme {
   }
   .contact__message {
     bottom: -2.5rem;
-  }
+  } */
   .dark-theme .contact__data {
     box-shadow: 4px 0 8px hsla(0, 0%, 4%, .3);
   }
