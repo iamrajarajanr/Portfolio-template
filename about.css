@@ -1,5 +1,5 @@
 /* Keyframes for left motion */
-@keyframes slideInLeft {
+/* @keyframes slideInLeft {
   from {
     transform: translateX(100px);
     opacity: 0;
@@ -8,10 +8,10 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 /* Keyframes for RIGHT motion */
-@keyframes slideInRight {
+/* @keyframes slideInRight {
   from {
     transform: translateX(-100px);
     opacity: 0;
@@ -20,7 +20,9 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
+
+
 
 
 
@@ -60,16 +62,16 @@
   align-self: center;
 
   /* Animation */
-  animation: slideInLeft 0.8s ease-out forwards;
-  opacity: 0;
+  /* animation: slideInLeft 0.8s ease-out forwards;
+  opacity: 0; */
 }
 
 
   
 
 .about__description {
-  animation: slideInRight 0.8s ease-out forwards;
-  opacity: 0;
+  /* animation: slideInRight 0.8s ease-out forwards;
+  opacity: 0; */
   text-align: center;
   margin-bottom: 20px;
 }
